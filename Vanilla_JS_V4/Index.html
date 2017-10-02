@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery List</title>
+        <script src="groceryList.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <H2>Welcome to Vanilla JS Grocery List!</H2>
+        <p>Enter an Item you like to add to the list</p>
+            <form id="frm1" action="#">
+              Enter Item Here: <input id="itemName" required="required" onkeypress="handle(event)" type="text" name="fname" /><br><br>
+              <input type="button" id="submitButton" onclick="getFormItem()" value="Submit">
+            </form>
+        <h2>Grocery List</h2>
+        <div>
+            <h4 id="message"></h4>
+        </div>
+            <ul id="uList"></ul>
+            <div id="messageBar">
+                <p><span id="numberOfItems">0 </span> Items On List</p>
+            </div>
+    </body>
+
+
+</html>

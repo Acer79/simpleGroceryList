@@ -1,0 +1,70 @@
+.strike {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#secondaryMessage {
+  display: none;
+}
+
+#wrapper {
+  width: 30%;
+  margin: 0 auto; /* center */
+  padding-top: 2px;
+}
+
+#body {
+  background-color: rgb(255, 241, 216);
+  padding-top: 2px;
+}
+
+#leftDiv {
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  float:left;
+  width:20%;
+}
+
+#header1 {
+  text-align: center;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-size: 55px;
+  color: #9A230A;
+  text-shadow: 1px 1px #3B2824;
+}
+.inputBox {
+  box-shadow: 10px 10px 5px grey;
+}
+
+#header3 {
+  font-size: 16pt;
+  font-family: 'Spectral', serif;
+  color: #9A230A;
+  text-shadow: 1px 1px 1px #3B2824;
+}
+
+.leftInfo {
+  font-family: 'Spectral', serif;
+  font-size: 12pt;
+}
+
+.leftInfo1 {
+  text-indent: 10px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 13pt;
+}
+#uList {
+  font-family: 'Raleway', sans-serif;
+}
+
+.liItems {
+  border-bottom: 2px solid grey;
+  height: 35px;
+  width: 350px;
+  font-size: 12pt;
+}
+.deleteButton {
+  float: right;
+}

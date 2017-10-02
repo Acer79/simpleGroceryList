@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery List</title>
+        <script src="groceryList.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text|Libre+Barcode+39+Extended+Text" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <script src="https://use.fontawesome.com/f282bf305e.js"></script>
+    </head>
+
+    <body id="body">
+         <!-- Set Div As your requirement -->
+        <div id="leftDiv">
+            <p id="header3"><u>JavaScript</u></p>
+            <p class="leftInfo">My first JavaScript Web-App.<br>Written by Lance.G</p>
+            <hr>
+            <p class="leftInfo1">
+                This app was originally written to help me build my JavaScript skills. 
+                which has now allowed me to also build on my front end skills with HTML and CSS.
+                All of the source code inside this app is built with vanilla JavaScript, there 
+                is no framework or libray that was used.
+            </p>
+            <p class="leftInfo1"> If you would like a copy of the source code
+                you can click here <a href="url">Source Code</a>.<br>
+                I will be working on a react and react-native version to further build the app.
+            </p>
+            <hr>
+            <p class="leftInfo">Please email me if you have any comments about my code or any suggestions. 
+                <a href="mailto:lsg.tech79@gmail.com">Let me know.</a> 
+            </p>
+        </div>
+        <div id="wrapper">
+            <p id="header1">GROCERY LIST</p>
+            <form id="frm1" action="#">
+              <input class="inputBox" id="itemName" style="height:35px; width:350px; font-size:12pt;  padding-left:30px" required="required" placeholder="Enter Your Item Here." onkeypress="handle(event)" type="text" name="fname" /><br><br>
+            </form>
+            <div id="secondaryMessage">
+            <ul id="uList"></ul>
+            <div id="messageBar">
+                <p><span id="numberOfItems">0 </span> Items On List</p>
+                <p><span id="hiddenItems">0 </span> Items On Completed List</p>
+            </div>
+            </div>
+        </div>
+        
+
+    </body>
+
+
+</html>
